@@ -8,6 +8,20 @@
       "expo-router"
     ],
     "name": "jobs",
-    "slug": "jobs"
+    "slug": "jobs",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5bb2fabf-19ed-410e-8f4b-c2f07bf24545"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.quinnxie.jobs"
+    },
+    "android": {
+      "package": "com.unices.jobs"
+    }
   }
 }
